@@ -1,4 +1,93 @@
-#main{
-    text-decoration-color: aquamarine;
+h1{
+    align-content: center;
 
 }
+
+body{
+    background-image: url("cool-background.jpg");
+    
+}
+
+.about{
+    color: seashell;
+}
+
+
+
+
+.blog{
+    background-color: blue;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    background-origin: padding-box;
+    color: seashell;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-main {
+    float: left;
+    width: 50.00%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-main:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column-contact {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-contact:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .name{
+      font-size: 30px;
+  }
+
+  .links{
+      font-size: 30px;
+      color: seashell;
+      
+  }
+
+  .sticky{
+  
+    background-origin: padding-box;
+    
+    outline-style: groove;
+    position: sticky;
+    margin: -50px, 20px;
+    top: 0;
+ }
+
+ .headshot{
+     border-radius: 50.00%;
+     padding-top: 10px;
+     
+ }
+ 
+ .info{
+     color: seashell;
+     font-size: 20px;
+     padding-top: 20px;
+ }
+
+
+
