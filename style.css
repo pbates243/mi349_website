@@ -124,5 +124,23 @@ body{
     }
   }
 
+  .app{
+    border-radius: 50.00%;
+     padding-top: 10px;
+     max-width: 100px;
+  }
+
+  .column-apps {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-apps:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 
 
