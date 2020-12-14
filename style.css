@@ -9,6 +9,10 @@ h2{
   color: seashell;
 }
 
+p{
+  color: seashell;
+  font-size: 20px;
+}
 body{
     background-image: url("cool-background.jpg");
     
@@ -192,11 +196,36 @@ body{
   }
 
   .swords-video{
-    margin-top: 50px;
+    margin-top: 150px;
   }
 
   .swords{
     margin-top: 40px;
+  }
+
+  .tetris{
+    margin-top: 50px;
+  }
+
+  .row-projects{
+    border-style: solid;
+    border-color: seashell;
+  }
+
+  .column-video {
+    float: left;
+    width: 50.00%;
+  }
+  
+  /* Clear floats after the columns */
+  .row-projects:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .text-video{
+    margin-top: 50px;
   }
 
 
